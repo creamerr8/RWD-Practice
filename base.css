@@ -1,0 +1,18 @@
+ 
+* {
+    box-sizing: border-box;
+    background-color: #ccc;
+    outline: black 1px solid;
+  }
+
+  @media (min-width: 960px) {
+      * {
+          background-color: bisque;
+      }
+  }
+
+  @media (min-height: 760px) {
+      * {
+          background-color: yellow;
+      }
+  }
